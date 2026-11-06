@@ -4,7 +4,7 @@ This repo exists for one reason: to give Claude Code Routines something to clone
 
 ## What's here
 
-- `.claude/skills/hubspot-hygiene-agent/hubspot-hygiene-agent.skill` — a packaged skill (zip holding `hubspot-hygiene-agent/SKILL.md`; unzip to read or edit it, re-zip to save). Weekly HubSpot Deal pipeline hygiene scan + Demo Completed reconciliation. Flags only, never edits.
+- `.claude/skills/hubspot-hygiene-agent/SKILL.md` — weekly HubSpot Deal pipeline hygiene scan + Demo Completed reconciliation. Flags only, never edits.
 - `.claude/skills/hygiene-agent-review/SKILL.md` — monthly review of the hygiene agent's own run history. Most cycles should find nothing; that's correct, not a shortfall.
 
 ## Where the actual business logic lives — not here

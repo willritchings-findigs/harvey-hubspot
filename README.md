@@ -23,7 +23,7 @@ Run the hubspot-hygiene-agent skill now, exactly as specified in its SKILL.md �
 
 This is a fully unattended run — no one is here to answer questions. Follow every escalation and governance rule in the skill exactly rather than skipping a step because it's ambiguous: flag ambiguous cases, don't guess; never edit or create anything in HubSpot; write the Run Log row before finishing.
 
-If the HubSpot, Slack, or Notion connector isn't reachable, or a Notion page/database the skill depends on can't be found, stop immediately and post a clear failure note to #hubspot-hygiene instead of proceeding partially or guessing at missing data.
+If the HubSpot, Slack, or Notion connector is still missing after the skill's Connectors retry rule, or a Notion page/database the skill depends on can't be found, stop immediately and DM Will (Slack user U0BQ5AZK284) a clear failure note instead of proceeding partially or guessing at missing data. Post nothing to #hubspot-hygiene. If Slack itself is unreachable, send the failure note as a push notification instead.
 ```
 
 ## 2. Routine — `hygiene-agent-review` (monthly)
